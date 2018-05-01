@@ -10,3 +10,9 @@ function nowServing(arr) {
  var name=arr.shift()
  return `Currently serving ${name}.`
 }
+function currentLine(arr) {
+  var answer="The line is currently:"
+  for (var i = 1; i <= arr.length; i++) {
+    answer = answer +` ${i}. ${arr[i]},`;
+  }
+}
