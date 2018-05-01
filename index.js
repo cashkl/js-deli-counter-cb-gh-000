@@ -15,4 +15,5 @@ function currentLine(arr) {
   for (var i = 1; i <= arr.length; i++) {
     answer = answer +` ${i}. ${arr[i]},`;
   }
+  return answer;
 }
