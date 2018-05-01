@@ -11,6 +11,7 @@ function nowServing(arr) {
  return `Currently serving ${name}.`
 }
 function currentLine(arr) {
+  if(arr.length<1) return "The line is currently empty."
   var answer="The line is currently:"
   for (var i = 1; i <= arr.length; i++) {
     answer = answer +` ${i}. ${arr[i]},`;
