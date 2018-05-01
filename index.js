@@ -16,6 +16,6 @@ function currentLine(arr) {
   for (var i = 0; i < arr.length; i++) {
     answer = answer +` ${i+1}. ${arr[i]},`;
   }
-  answer.pop()
+  answer[answer,length-1]=''
   return answer;
 }
