@@ -5,6 +5,6 @@ function takeANumber(arr,str) {
 function nowServing(arr) {
 
   if (arr.length==0) {
-    return"There is nobody waiting to be served!""
+    return"There is nobody waiting to be served!"
   }
 }
